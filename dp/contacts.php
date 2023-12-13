@@ -1,7 +1,5 @@
 <?php
     session_start();
-    if (!isset($_SESSION["username"])){
-        $un = $_SESSION["username"];
     }
 ?>
 <html>
@@ -37,7 +35,6 @@
                     <?php
                         echo '<p>';
                         echo "Welcome ";
-                        echo $_SESSION["username"];
                         echo '</p>';
                     ?>
                 </div>
