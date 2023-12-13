@@ -1,0 +1,46 @@
+[
+    {
+        "username": "lynn",
+        "password": "lynn2003",
+        "firstname": "Lynn",
+        "lastname": "Abdallah",
+        "sex": "f"
+    },
+    {
+        "username": "lee1",
+        "password": "leen",
+        "firstname": "Leen",
+        "lastname": "Abdallah",
+        "sex": "f"
+    },
+    {
+        "username": "Rania02",
+        "password": "12345",
+        "firstname": "Rania",
+        "lastname": "Abdallah",
+        "sex": "f"
+    },
+    {
+        "username": "Zein",
+        "password": "zein123",
+        "firstname": "Zein",
+        "lastname": "Merhi",
+        "sex": "m"
+    },
+    {
+        "username": "lynn1234",
+        "password": "lynn1234",
+        "fname": "lynn",
+        "lname": "abdallah",
+        "dateofbirth": "2003-12-14",
+        "sex": "f"
+    },
+    {
+        "username": "lean",
+        "password": "hi123",
+        "fname": "lean",
+        "lname": "abdallah",
+        "dateofbirth": "",
+        "sex": "f"
+    }
+]
