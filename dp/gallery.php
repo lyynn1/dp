@@ -1,7 +1,5 @@
 <?php
     session_start();
-    if (!isset($_SESSION["username"])){
-        $un = $_SESSION["username"];
     }
 ?>
 <html>
@@ -37,7 +35,6 @@
                     <?php
                         echo '<p>';
                         echo "Welcome ";
-                        echo $_SESSION["username"];
                         echo '</p>';
                     ?>
                 </div>
@@ -115,17 +112,7 @@
            
         </div>
         <div class="gallery">
-        <?php
-            $imageNames = file('gallery.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-            foreach($imageNames as $image){
-                $imageLink =  $image;
-                echo '<div class="img-cont">';
-                    echo "<a class=\"img-link\" href=\"$imageLink\" target=\"_self\" >";
-                        echo "<img src=\"$imageLink\">";
-                    echo '</a>';
-                echo '</div>';
-            }
-        ?>
+        
     </div>
 
     <script>
